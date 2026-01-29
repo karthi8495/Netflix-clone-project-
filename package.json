@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "backend/server.js",
   "scripts": {
-    "dev":"NODE_ENV=development node --watch backend/server.js",
-    "start": "NODE_ENV=production node --watch backend/server.js",
-		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "dev":"node --watch backend/server.js"
   },
   "repository": {
     "type": "git",
