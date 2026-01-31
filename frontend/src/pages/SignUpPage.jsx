@@ -13,7 +13,7 @@ const SignUpPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const {signup} = useAuthStore()
+  const {signup, isSigningUp} = useAuthStore()
 
   const handleSignUp = (e) => {
     e.preventDefault();
